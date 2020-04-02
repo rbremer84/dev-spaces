@@ -8,9 +8,8 @@ spec:
     matchLabels:
       app: webfrontend
   template:
-    metadata:
-      labels:
-        app: webfrontend
+    matchLabels:
+      app: webfrontend
     spec:
       containers:
       - name: webfrontend
